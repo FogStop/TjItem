@@ -11,7 +11,7 @@
  Target Server Version : 50739 (5.7.39-log)
  File Encoding         : 65001
 
- Date: 04/12/2023 13:00:36
+ Date: 19/12/2023 14:27:18
 */
 
 SET NAMES utf8mb4;
@@ -62,16 +62,39 @@ CREATE TABLE `x_employee`  (
 -- ----------------------------
 -- Records of x_employee
 -- ----------------------------
-INSERT INTO `x_employee` VALUES (1, 'fog', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '1', '18677778888', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (2, 'zhang', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667777', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (3, 'lisi2', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667778', 0, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (4, 'wang', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667772', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (5, 'zhao', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '13966667776', 0, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (6, 'song', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '13966667771', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
-INSERT INTO `x_employee` VALUES (7, '12', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '123569', 0, NULL, 0);
-INSERT INTO `x_employee` VALUES (8, '333', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '11112121211', 1, NULL, 0);
-INSERT INTO `x_employee` VALUES (9, '521', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '12548', 0, NULL, 1);
-INSERT INTO `x_employee` VALUES (10, 'a', '$2a$10$DwTI6ttza6DNh.gJz3H2H.YyufyvwUwc5LqKvbItVs9opnOu.G9bu', '3', '65965555', 1, NULL, 1);
+INSERT INTO `x_employee` VALUES (1, '张三', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '1', '18677778888', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (2, '李四', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667777', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (3, '王五', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667778', 0, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (4, '赵二', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '2', '13966667772', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (5, '钱八', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '13966667776', 0, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (6, '宋七', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '13966667771', 1, 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif', 0);
+INSERT INTO `x_employee` VALUES (7, '孙九', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '123569', 0, NULL, 0);
+INSERT INTO `x_employee` VALUES (8, '周一', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '11112121211', 1, NULL, 0);
+INSERT INTO `x_employee` VALUES (9, '吴六', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '3', '12548', 0, NULL, 1);
+INSERT INTO `x_employee` VALUES (10, '凌一', '$2a$10$DwTI6ttza6DNh.gJz3H2H.YyufyvwUwc5LqKvbItVs9opnOu.G9bu', '3', '65965555', 1, NULL, 1);
+
+-- ----------------------------
+-- Table structure for x_gather
+-- ----------------------------
+DROP TABLE IF EXISTS `x_gather`;
+CREATE TABLE `x_gather`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `year` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `yearnum` int(11) NULL DEFAULT NULL,
+  `gatheruser` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `gatherusernum` int(11) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of x_gather
+-- ----------------------------
+INSERT INTO `x_gather` VALUES (1, '2022', 4000, '2022', 2410);
+INSERT INTO `x_gather` VALUES (2, '2021', 3812, '2021', 2340);
+INSERT INTO `x_gather` VALUES (3, '2020', 3927, '2020', 2400);
+INSERT INTO `x_gather` VALUES (4, '2019', 3650, '2019', 2200);
+INSERT INTO `x_gather` VALUES (5, '2018', 3811, '2018', 2315);
+INSERT INTO `x_gather` VALUES (6, '2017', 3712, '2017', 2298);
 
 -- ----------------------------
 -- Table structure for x_menu
@@ -89,7 +112,7 @@ CREATE TABLE `x_menu`  (
   `is_leaf` varchar(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `hidden` tinyint(1) NULL DEFAULT NULL,
   PRIMARY KEY (`menu_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of x_menu
@@ -110,7 +133,7 @@ CREATE TABLE `x_month`  (
   `personnel` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '人员更替数量表',
   `appraise` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '评价整理',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of x_month
@@ -125,7 +148,6 @@ INSERT INTO `x_month` VALUES (7, '7月', 500, '260', '优秀');
 INSERT INTO `x_month` VALUES (8, '8月', 550, '280', '良好');
 INSERT INTO `x_month` VALUES (9, '9月', 535, '270', '良好');
 INSERT INTO `x_month` VALUES (10, '10月', 500, '265', '一般');
-INSERT INTO `x_month` VALUES (11, '11月', 120, '40', '差');
 
 -- ----------------------------
 -- Table structure for x_role
@@ -142,8 +164,8 @@ CREATE TABLE `x_role`  (
 -- Records of x_role
 -- ----------------------------
 INSERT INTO `x_role` VALUES (1, 'admin', '超级管理员');
-INSERT INTO `x_role` VALUES (2, 'hr', '人事专员');
-INSERT INTO `x_role` VALUES (3, 'normal', '普通员工');
+INSERT INTO `x_role` VALUES (2, 'hr', '管理员');
+INSERT INTO `x_role` VALUES (3, 'normal', '客户');
 
 -- ----------------------------
 -- Table structure for x_role_menu
@@ -154,7 +176,7 @@ CREATE TABLE `x_role_menu`  (
   `role_id` int(11) NULL DEFAULT NULL,
   `menu_id` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of x_role_menu
@@ -174,7 +196,7 @@ CREATE TABLE `x_user`  (
   `avatar` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `deleted` int(1) NULL DEFAULT 0,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of x_user
@@ -189,8 +211,9 @@ INSERT INTO `x_user` VALUES (7, '1234', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJE
 INSERT INTO `x_user` VALUES (8, '1111', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '15454', '11112121211', 1, NULL, 1);
 INSERT INTO `x_user` VALUES (9, '52154', '$2a$10$/4hF5BQqQ7eny0.DcFFPku2GdhU8aUJEaC0feMZu92/klUY/3vPna', '235514521', '12548', 0, NULL, 1);
 INSERT INTO `x_user` VALUES (10, 'as', '$2a$10$DwTI6ttza6DNh.gJz3H2H.YyufyvwUwc5LqKvbItVs9opnOu.G9bu', 'aaaaaa', '65965555', 1, NULL, 1);
-INSERT INTO `x_user` VALUES (11, 'xiaorui', '$2a$10$53onJ1O02K1xbC8q/3opL.N3JV7rwJ1GrYPxOCGk730mAI9auga.2', '121', '123456', 1, NULL, 0);
+INSERT INTO `x_user` VALUES (11, '张三', '$2a$10$53onJ1O02K1xbC8q/3opL.N3JV7rwJ1GrYPxOCGk730mAI9auga.2', '121', '123456', 1, NULL, 0);
 INSERT INTO `x_user` VALUES (12, '12154', '$2a$10$PjIIUvISrzXkZ5HUSd5GIObVTXm7lc2SsLd4OizWfAxne4.Cr0JBG', '12145', '18563586545', 1, NULL, 1);
+INSERT INTO `x_user` VALUES (13, '叶梓', '$2a$10$QupipTkPG7HqStw2pnLqRu6orQH9eGnygBOo5CCqvS5/sqLPnaEJ2', 'sssssss', '12121144140', 0, NULL, 0);
 
 -- ----------------------------
 -- Table structure for x_user_role
@@ -201,7 +224,7 @@ CREATE TABLE `x_user_role`  (
   `user_id` int(11) NULL DEFAULT NULL,
   `role_id` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of x_user_role
